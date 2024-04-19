@@ -1,0 +1,130 @@
+/* o que for definido em container vai ser utilizada ao longo de toda a página */
+
+/* SECTION 1 */
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.container-box-1 {
+    margin: 6rem;
+}
+
+.container-box-1 img {
+    margin: 2rem 0 4rem;
+}
+
+.btn {
+    background-color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+.btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-btn-hover);
+    border: 2px solid var(--color-btn-hover);
+    transition: .5s;
+}
+
+.btn-two {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-two:hover {
+    background-color: transparent;
+}
+
+.p-font-12 {
+    font-size: var(--font-size-12);
+}
+
+
+/* SECTION 2 */
+.secondary {
+    align-items: center;
+    margin: 0 15rem;
+}
+
+.container-box-2 h2 {
+    margin-bottom: 0.8rem;
+}
+
+
+/* SECTION 3 */
+.container-box-3 p {
+    margin-bottom: 1.6rem;
+}
+
+.btn-three {
+    display: inline-block;
+}
+
+#image {
+    margin-left: auto;
+}
+
+
+/* SECTION 4 */
+.container-box-4 h2 {
+    margin-bottom: 0.8rem;
+}
+
+
+/* SECTION 5 */
+.devices {
+    text-align: center;
+}
+
+.devices-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+    margin: 5rem 0;
+}
+
+.devices-list h3 {
+    margin-top: 1.6rem;
+}
+
+
+/* FOOTER */
+.footer {
+    margin: 8rem 10rem;
+    text-align: center;
+}
+
+.footer img {
+    margin-bottom: 4rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.footer p {
+    margin-top: 2.4rem;
+}
